@@ -1,4 +1,4 @@
-Method lists
+The list method
 ============
 ````ruby
 n = int(input())
