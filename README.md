@@ -8,3 +8,9 @@ for i in range(97, n + 97):
     list += s
 print(list)
 ````
+````ruby
+list = []
+for i in range (26):
+    list.append(chr(ord('a') + i)*(i+1))
+print(list)
+````
