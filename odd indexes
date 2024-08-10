@@ -1,0 +1,7 @@
+list = []
+n = int(input())
+for i in range (n):
+    num = int(input())
+    list.append (num)
+del list[1::2]
+print (list)
