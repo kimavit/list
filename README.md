@@ -27,3 +27,16 @@ for s in list:
         k += s[ind - 1]
 print (k)
 ````
+````ruby
+list = []
+list2 = []
+n = int(input())
+for i in range (1, n + 1):
+    nx = int(input())
+    list.append(nx)
+    q = nx * nx + 2*nx +1
+    list2.append(q)
+print(*list, sep = '\n')
+print()
+print(*list, sep = '\n')
+````
