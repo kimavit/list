@@ -40,3 +40,13 @@ print(*list, sep = '\n')
 print()
 print(*list, sep = '\n')
 ````
+````ruby
+n = int (input())
+list = []
+for i in range (n):
+    num = int(input())
+    list.append(num)
+for j in list:
+    if j != min(list) and j != max(list):
+        print (j)
+````
