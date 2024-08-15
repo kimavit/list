@@ -50,3 +50,14 @@ for j in list:
     if j != min(list) and j != max(list):
         print (j)
 ````
+````ruby
+n = int (input())
+list = []
+for i in range (n):
+    s = input()
+    list.append (s)
+sch = input()
+for s in list:
+    if sch.lower() in s.lower():
+        print(s)
+````
