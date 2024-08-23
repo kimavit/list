@@ -61,3 +61,22 @@ for s in list:
     if sch.lower() in s.lower():
         print(s)
 ````
+````ruby
+n = int (input())
+list = []
+lis = []
+li = []
+for i in range (n):
+    list.append (input())
+m = int(input())
+for j in range (m):
+    lis.append(input())
+for h in range (len(list)):
+    count = 0
+    for g in range(len(lis)):
+        if lis[g].lower() in list[h].lower():
+            count +=1
+        if count == len(lis):
+            li.append(list[h])
+print (*li, sep= "\n")
+````
