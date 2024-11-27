@@ -1,0 +1,14 @@
+list = []
+a = []
+for i in input().split():
+    if not a:
+        a.append(i)
+    else:
+        if a[-1] == i:
+            a.append(i)
+        else:
+            list.append(a)
+            a = [i]
+if a:
+    list.append(a)
+print(list)
