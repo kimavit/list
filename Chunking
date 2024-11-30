@@ -1,0 +1,7 @@
+def chunked(s, n):
+    list = []
+    for i in range(0, len(s), n):
+        list.append(s[i:i+n])
+        return list
+s = input()
+n = int(input())
