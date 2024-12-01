@@ -2,6 +2,7 @@ def chunked(s, n):
     list = []
     for i in range(0, len(s), n):
         list.append(s[i:i+n])
-        return list
-s = input()
+    return list
+s = input().split()
 n = int(input())
+print (chunked(s, n)) 
